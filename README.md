@@ -35,7 +35,7 @@ And ofcourse the benefits of GraphQL itself.
 
 All of the contracts are currently in DRAFT state and used as input for discussion.
 
-- [Request Tokens](draft/token-request.md) - Request API tokens. A self automated way of retrieving an API token from a service for communication. With this you can identify yourself to the service and start using other contracts (APIs) on that service if they require authentication.
+- [Request Tokens](draft/token-request.md) - A self service way of retrieving an API token from a service for communication. With this contract you can identify yourself to the service and start using other contracts (APIs) on that service if they require authentication.
 - [Postbox](draft/postbox.md) - Send messages to a service / site
 
 ## How does it work technically?
@@ -80,7 +80,7 @@ type Mutation implements PostboxMutatations
 
 And thats it. The idea is that the contract part is _reusable_. And that other implementers only need to implement your interface SDL in order for clients to talk to.
 
-## Contract writing best pratices
+## Contract writing best practices
 
 This will help you building contracts that are easy to maintain.
 
