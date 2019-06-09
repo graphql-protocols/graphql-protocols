@@ -1,12 +1,12 @@
-# Request API token
+# Request API token protocol
 
 Simple requests of API tokens at any server
 
 ## Purpose
 
-Automate token requesting for developers for accessing an API. This will usually be the first flow that a client does in order to authorise itself with a server that supports contracts.
+Automate token requesting for developers for accessing an API. This will usually be the first flow that a client does in order to authorise itself with a server that supports protocols.
 
-## Contract
+## Protocol
 
 ```graphql
 type TokenResponse {

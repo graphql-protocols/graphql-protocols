@@ -1,4 +1,4 @@
-# Postbox
+# Postbox protocol
 
 Simple server messaging
 
@@ -6,7 +6,7 @@ Simple server messaging
 
 Make possible for sending messages to a consumer (site) like a support app such as intercom.
 
-## Contract
+## Protocol
 
 ```graphql
 type Message {

@@ -1,12 +1,12 @@
-# MyXYzContract
+# My Protocol
 
-Simple but clear one line of the contract
+Simple but clear one line of the protocol
 
 ## Purpose
 
-Multiline description of the purpose of the contract
+Multiline description of the purpose of the protocol
 
-## Contract 
+## Protocol 
 
 Write the SDL here:
 
@@ -31,13 +31,13 @@ interface PostboxMutatations {
 Add to your query type:
 
 ```graphql
-type Query implements MyXYzContract
+type Query implements MyXYzProtocol
 ```
 
 Add to your mutation types:
 
 ```graphql
-type Mutation implements MyXYzContractMutations
+type Mutation implements MyMutationProtocol
 ```
 
 ## Flow
