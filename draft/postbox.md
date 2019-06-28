@@ -10,15 +10,15 @@ Make possible for sending messages to a consumer (site) like a support app such 
 
 ```graphql
 type Message {
-  message: String
+  message: String!
 }
 
 interface Postbox {
-  messages: [Message]
+  messages: [Message!]!
 }
 
 interface PostboxMutatations {
-  postMessage(message: String): Message
+  postMessage(message: String!): Message!
 }
 ```
 

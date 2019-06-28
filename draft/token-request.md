@@ -30,12 +30,6 @@ interface TokenRequestMutations {
 
 ## Implementation
 
-Add to your query type:
-
-```graphql
-type Query implements TokenRequestRequests
-```
-
 Add to your mutation type:
 
 ```graphql
@@ -45,7 +39,7 @@ type Mutation implements TokenRequestMutations
 ## Request flow
 
 1. Request a token challenge with your identity url and signature. This provides you the nonce that you need in order to prevent replay attacks.
-2. Sign the token with your GPG private key and exchange for a short lived token back.
+2. Sign the challenge with your GPG private key and exchange for a short lived token back.
 
 ```graphql
 mutation(
