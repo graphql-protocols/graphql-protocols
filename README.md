@@ -2,6 +2,8 @@
 
 > WARNING: We're working on this 💪. For discussion purposes only at this moment.
 
+[Read the introduction post here](http://emilebosch.com/2019/06/27/why-we-need-graphql-protocols/)
+
 The simplest way to describe protocols for peer-to-peer and client to server communication via GraphQL interfaces, built for the [social](https://github.com/graphql-protocols/social) protocol family. 
 
 🚀 Check out a [sinatra sample](https://github.com/graphql-protocols/graphql-protocols-sinatra-sample) if you're in a hurry.
